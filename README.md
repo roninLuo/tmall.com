@@ -33,6 +33,9 @@ $ git add --all     添加所有内容到暂存区
 
 $ git rm --cached filename 将指定文件移出暂存区
 
+
+将暂存区的内容添加到本地仓库
 $ git commit -m 'message'
 
-
+查看提交日志
+$ git log
