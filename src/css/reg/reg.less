@@ -1,0 +1,304 @@
+#reg-header {
+  height: 65px;
+  padding-top: 10px;
+
+  img {
+    height: 28px;
+    width: auto;
+  }
+}
+
+#reg-banner {
+  height: 600px;
+  background: url('https://gw.alicdn.com/imgextra/i3/O1CN01iyYdem1GQd1yGgA0a_!!6000000000617-0-tps-2500-600.jpg');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+
+  >.wrapper {
+    position: relative;
+    height: 100%;
+
+    >a {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+
+    >.reg-body {
+      height: 280px;
+      width: 300px;
+      padding: 35px 25px;
+      background: rgb(255, 255, 255);
+      position: absolute;
+      right: 50px;
+      top: 120px;
+
+      .reg-body-top {
+        // opacity: .8;
+
+        .erweima {
+          position: absolute;
+          top: 2px;
+          right: 2px;
+          height: 56px;
+          width: 56px;
+
+          i {
+            color: #f40;
+            font-size: 56px;
+          }
+        }
+
+        .erweima::after {
+          content: '';
+          display: block;
+          border: 28px solid rgb(255, 255, 255);
+          ;
+          border-right-color: transparent;
+          border-top-color: transparent;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        .reg-body-top-tip {
+          height: 30px;
+          width: 100px;
+          border: 1px solid #ff9000;
+          color: #ff9000;
+          background: #faf9ee;
+          position: absolute;
+          top: 10px;
+          left: 190px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .reg-body-top-arrow {
+          height: 12px;
+          width: 6px;
+          position: absolute;
+          top: 22px;
+          left: 291px;
+
+          em {
+            position: absolute;
+            top: 0;
+            left: 1px;
+            border-style: solid;
+            border-color: transparent;
+            border-left-color: #ff9000;
+            border-width: 6px 0 6px 6px;
+            z-index: 11;
+          }
+
+          span {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-style: solid;
+            border-color: transparent;
+            border-width: 6px 0 6px 6px;
+            border-left-color: #faf9ee;
+            z-index: 12;
+          }
+        }
+      }
+
+      .reg-body-middle {
+
+        // height: 300px;
+        .reg-body-middle-changeBar {
+          display: flex;
+          justify-content: flex-start;
+
+          >li {
+            padding: 5px 0px;
+            font-size: 16px;
+            color: #171616;
+            font-weight: bold;
+            border: 2px solid transparent;
+            border-left: none;
+            border-right: none;
+            cursor: pointer;
+          }
+
+          >li:hover {
+            border-bottom-color: #171616;
+          }
+
+          >li:nth-child(1) {
+            margin-right: 10px;
+          }
+
+          .active {
+            border-bottom-color: #171616;
+          }
+        }
+
+        .reg-body-middle-input {
+          height: 206px;
+          // background: yellow;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+
+          // align-items: center;
+          >div {
+            height: 43px;
+            border: 1px solid #f2f2f2;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            >div {
+              height: 43px;
+              width: 43px;
+              background: #cccccc;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              >span {
+                font-size: 20px;
+                color: #fff;
+              }
+            }
+
+            >input {
+              outline: none;
+              border: none;
+              height: 43px;
+              width: 250px;
+              text-indent: 10px;
+              font-size: 14px;
+            }
+          }
+
+          .submit {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: #fff;
+            background: #ff4400;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .reg-body-bottom {
+        >p {
+          display: flex;
+          align-items: center;
+
+          .icon-shejiaotubiao-42 {
+            color: #fa1537;
+          }
+
+          .icon-zhifubao {
+            color: #00baed;
+          }
+
+          >a:hover {
+            color: darkred;
+          }
+        }
+
+        ;
+
+        .reg-body-bottom-link2 {
+          margin-top: 10px;
+          display: flex;
+          justify-content: flex-end;
+
+          a {
+            margin-left: 11px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+#reg-bottom {
+  .reg-bottom-info1 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+
+    span {
+      margin: 0 12px;
+    }
+  }
+
+  p {
+    margin-top: 10px;
+
+    a {
+      margin: 0 7px;
+      color: #171616;
+    }
+
+    span {
+      margin: 0 12px;
+    }
+  }
+
+  .last {
+    height: 72px;
+    display: flex;
+    align-items: center;
+
+    >a {
+      display: block;
+      height: 40px;
+      margin-left: 40px;
+      background: url('https://img.alicdn.com/tfs/TB1EPnIQXXXXXaSXpXXXXXXXXXX-1133-35.jpg');
+    }
+
+    .a1 {
+      background-position: 0px 0px;
+      width: 36px;
+      background: url('http://img.alicdn.com/tps/i1/T1FeW3XXNfXXXXXXXX-36-36.gif');
+    }
+    .a2{
+    background-position: 0px 0px;
+    width: 30px;
+    }
+    .a3{
+      background-position: -40px 0px;
+    width: 33px;
+    }
+    .a4{
+      background-position: -80px 0px;
+    width: 50px;
+    }
+    .a5{
+      background-position: -140px 0px;
+      width: 83px;
+    }
+    .a6{
+      background-position: 703px -33px;
+      width: 219px;
+    }
+    .a7{
+      background-position: -650px 0px;
+      width: 105px;
+    }
+    .a8{
+      background-position: -345px 0px;
+      width: 85px;
+    }
+    .a9{
+      background-position: -761px 0px;
+      width: 97px;
+    }
+  }
+}

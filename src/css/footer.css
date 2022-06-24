@@ -1,0 +1,100 @@
+#footer .section1 {
+  border-bottom: 2px solid #ff99ae;
+  height: 364px;
+}
+#footer .section1 .footer-section1-top {
+  height: 148px;
+  border-bottom: 1px solid #f2f2f2;
+  background: url(../img/footer-img1.jpg) center center no-repeat;
+  display: flex;
+  align-items: center;
+}
+#footer .section1 .footer-section1-top a {
+  display: block;
+  height: 100px;
+  flex: 1;
+}
+#footer .section1 .footer-section1-bottom {
+  height: 188px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-around;
+  background: url(../img/天猫tmall_03.png) no-repeat;
+  background-position: 100px 190px;
+}
+#footer .section1 .footer-section1-bottom dt {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #4c546c;
+}
+#footer .section1 .footer-section1-bottom dd {
+  margin-bottom: 4px;
+}
+#footer .section1 .footer-section1-bottom dd a:hover {
+  text-decoration: underline;
+}
+#footer .section1 .footer-section1-bottom dd img {
+  height: 90px;
+  width: 90px;
+  margin-left: 5px;
+}
+#footer .section2 {
+  background: #000000;
+}
+#footer .section2 .info1,
+#footer .section2 .info2 {
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+#footer .section2 .info1 li,
+#footer .section2 .info2 li {
+  margin-right: 5px;
+  line-height: 1;
+}
+#footer .section2 .info1 a,
+#footer .section2 .info2 a {
+  color: #fff;
+}
+#footer .section2 .info1 a:hover,
+#footer .section2 .info2 a:hover {
+  text-decoration: underline;
+}
+#footer .section2 .info2 li:not(:nth-child(1)) {
+  margin-left: 5px;
+}
+#footer .section2 p span {
+  margin-right: 70px;
+}
+#footer .section2 p span a:hover {
+  text-decoration: underline;
+}
+#footer .section2 .pl img {
+  height: 35px;
+  width: 35px;
+}
+#footer .section2 .copyright {
+  color: #686868;
+}
+#footer .section2 .info3 {
+  margin-top: 20px;
+}
+#footer .section2 .info3 a {
+  padding-top: 10px;
+  margin-right: 70px;
+}
+#footer .section2 .info4 {
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#footer .section2 .info4 a {
+  display: block;
+  background: #fff;
+}
+#footer .section2 .info4 a img {
+  width: 147px;
+  height: 71px;
+}

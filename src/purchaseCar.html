@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>购物车</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/iconfont/iconfont.css">
+  <script src="./css/iconfont/iconfont.js"></script>
+  <style type="text/css">
+    .icon {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="purchaseCar-top">
+    <div class="wrapper">
+      <div>
+        <ul>
+          <li class="login-top-left">
+            <span><a href="#">亲,请登录</a><a href="#">免费注册</a></span>
+          </li>
+          <li><a href="#">手机逛淘宝</a></li>
+          <li><a href="#">网页无障碍</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">淘宝网首页</a></li>
+          <li class="hiddenBlock"><a href="#">我的淘宝<span class="iconfont icon-xiala"></span></a>
+            <div>
+              <p><a href="#">已买到的宝贝</a></p>
+              <p><a href="#">我的足迹</a></p>
+            </div>
+          </li>
+          <li><a href="#"><i style="color: orangered;" class="iconfont icon-gouwuchekong"></i>购物车</a></li>
+          <li class="hiddenBlock"><a href="#"><i class="iconfont icon-shoucang"></i>收藏夹<span
+                class="iconfont icon-xiala"></span></a>
+            <div>
+              <p><a href="#">收藏的宝贝</a></p>
+              <p><a href="#">收藏的店铺</a></p>
+            </div>
+          </li>
+          <li><a href="#">商品分类</a></li>
+          <li><a href="#">免费开店</a></li>
+          <li>|</li>
+          <li class="hiddenBlock"><a href="#">千牛卖家中心<span class="iconfont icon-xiala"></span></a>
+            <div>
+              <p><a href="#">开店入驻</a></p>
+              <p><a href="#">已卖出的宝贝</a></p>
+              <p><a href="#">出售中的宝贝</a></p>
+              <p><a href="#">卖家服务市场</a></p>
+              <p><a href="#">卖家培训中心</a></p>
+              <p><a href="#">体验中心</a></p>
+              <p><a href="#">电商学习中心</a></p>
+            </div>
+          </li>
+          <li class="hiddenBlock"><a href="#">联系客服<span class="iconfont icon-xiala"></span></a>
+            <div>
+              <p><a href="#">消费者客服</a></p>
+              <p><a href="#">卖家客服</a></p>
+              <p><a href="#">意见反馈</a></p>
+              <p><a href="#">网页版旺旺</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="purchaseCar-logo">
+    <div class="wrapper">
+      <div>
+        <a href="#"><img src="./img/logo.png" alt=""></a>
+        <div class="purchase-search">
+          <div class="search-left">
+            <span class="iconfont icon-fangdajing"></span>
+            <p class="search-type">天猫</p><span class="iconfont icon-xiala"></span>
+            <div class="search-left-datalist">
+              <p>店铺</p>
+              <p>宝贝</p>
+            </div>
+          </div>
+          <div class="search-middle">
+            <input type="text">
+          </div>
+          <div class="search-button">
+            <button>搜索</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="purchaseCar-body">
+    <div class="wrapper">
+      <div class="purchaseBody">
+        <div class="purchaseBody-top">
+          <div class="left">
+            <p>购物车（全部<span>0</span>）</p>
+          </div>
+          <div class="right">
+            <p>已选商品（不含运费） <span class="price">0.00</span></p>
+            <div class="calculate">结算</div>
+          </div>
+        </div>
+        <div class="purchaseBody-body">
+          <div class="top">
+            <div class="left">
+              <input type="checkbox" name="checkbox1" id="">
+              <span>全选</span>
+              <span>商品信息</span>
+            </div>
+            <div class="right">
+              <span>单价</span>
+              <span>数量</span>
+              <span>金额</span>
+              <span>操作</span>
+            </div>
+          </div>
+          <div class="bottom">
+            <!-- <div class="product">
+              <div class="side1">
+                <input type="checkbox">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-tianmao-"></use>
+                </svg>
+                <span><strong>店铺&nbsp;:&nbsp;</strong>钥亚化妆品专营店</span>
+                <svg class="icon" aria-hidden="true" style="color:skyblue;">
+                  <use xlink:href="#icon-aliwangwang-fill"></use>
+                </svg>
+              </div>
+              <div class="side2">
+                <div class="title">
+                  <div class="youhui">跨店满减</div>
+                  <div class="content">每满300减50,可跨店</div>
+                </div>
+                <div class="product-info">
+                  <input type="checkbox">
+                  <div class="imgSide">
+                    <img
+                      src="https://img.alicdn.com/bao/uploaded/i2/2988865689/O1CN01aTEA381rtbtgkhaKV_!!0-item_pic.jpg_80x80.jpg"
+                      alt="">
+                    <div class="showBox">
+                      <img
+                        src="https://img.alicdn.com/bao/uploaded/i2/2988865689/O1CN01aTEA381rtbtgkhaKV_!!0-item_pic.jpg_80x80.jpg"
+                        alt="">
+                    </div>
+                    <div class="arrow">
+                      <em></em>
+                      <i></i>
+                    </div>
+                  </div>
+                  <div class="product-info-inner">
+                    <div class="topContent"><a href="#">旁氏米粹润泽洁面乳150g氨基酸温和水润焕采净澈男女士泡沫洗面奶</a></div>
+                    <div class="bottomContent">
+                      <a href="#"><img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt=""></a>
+                      <a href="#"><img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt=""></a>
+                      <a href="#"><img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="size">
+                    <p>
+                      净含量&nbsp;:&nbsp;150g
+                    </p>
+                  </div>
+                  <div class="price">
+                    <p>
+                      <del>￥33.00</del>
+                    </p>
+                    <p>
+                      <span>￥24.90</span>
+                    </p>
+                    <div>
+                      <span>卖家降价</span>
+                      <i class="iconfont icon-xiala"></i>
+                      <div>
+                        <p>卖家降价:品牌促销</p>
+                        <p>优惠:￥8.10</p>
+                        <p>比加入购物车时,又优惠了￥1.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="count">
+                    <button class="reduce">-</button>
+                    <input type="text" placeholder="1">
+                    <button class="add">+</button>
+                  </div>
+                  <div class="total">
+                    ￥<span>24.90</span>
+                  </div>
+                  <div class="caozuo">
+                    <p><a href="#">移入收藏夹</a></p>
+                    <p><a href="#">删除</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <div class="side1">
+                <input type="checkbox">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#icon-tianmao-"></use>
+                </svg>
+                <span><strong>店铺&nbsp;:&nbsp;</strong>钥亚化妆品专营店</span>
+                <svg class="icon" aria-hidden="true" style="color:skyblue;">
+                  <use xlink:href="#icon-aliwangwang-fill"></use>
+                </svg>
+              </div>
+              <div class="side2">
+                <div class="title">
+                  <div class="youhui">跨店满减</div>
+                  <div class="content">每满300减50,可跨店</div>
+                </div>
+                <div class="product-info">
+                  <input type="checkbox">
+                  <div class="imgSide">
+                    <img
+                      src="https://img.alicdn.com/bao/uploaded/i2/2988865689/O1CN01aTEA381rtbtgkhaKV_!!0-item_pic.jpg_80x80.jpg"
+                      alt="">
+                    <div class="showBox">
+                      <img
+                        src="https://img.alicdn.com/bao/uploaded/i2/2988865689/O1CN01aTEA381rtbtgkhaKV_!!0-item_pic.jpg_80x80.jpg"
+                        alt="">
+                    </div>
+                    <div class="arrow">
+                      <em></em>
+                      <i></i>
+                    </div>
+                  </div>
+                  <div class="product-info-inner">
+                    <div class="topContent"><a href="#">旁氏米粹润泽洁面乳150g氨基酸温和水润焕采净澈男女士泡沫洗面奶</a></div>
+                    <div class="bottomContent">
+                      <a href="#"><img src="https://assets.alicdn.com/sys/common/icon/trade/xcard.png" alt=""></a>
+                      <a href="#"><img src="https://img.alicdn.com/tps/i3/T1Vyl6FCBlXXaSQP_X-16-16.png" alt=""></a>
+                      <a href="#"><img src="https://img.alicdn.com/tps/i4/T1BCidFrNlXXaSQP_X-16-16.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="size">
+                    <p>
+                      净含量&nbsp;:&nbsp;150g
+                    </p>
+                  </div>
+                  <div class="price">
+                    <p>
+                      <del>￥33.00</del>
+                    </p>
+                    <p>
+                      <span>￥24.90</span>
+                    </p>
+                    <div>
+                      <span>卖家降价</span>
+                      <i class="iconfont icon-xiala"></i>
+                      <div>
+                        <p>卖家降价:品牌促销</p>
+                        <p>优惠:￥8.10</p>
+                        <p>比加入购物车时,又优惠了￥1.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="count">
+                    <button class="reduce">-</button>
+                    <input type="text" placeholder="1">
+                    <button class="add">+</button>
+                  </div>
+                  <div class="total">
+                    ￥<span>24.90</span>
+                  </div>
+                  <div class="caozuo">
+                    <p><a href="#">移入收藏夹</a></p>
+                    <p><a href="#">删除</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+             -->
+          </div>
+        </div>
+        <div class="purchaseBody-bottom">
+          <div class="left">
+            <input type="checkbox" name="" id="">
+            <span>全选</span>
+            <span id="del">删除</span>
+            <a href="#">移入收藏夹</a>
+          </div>
+          <div class="right">
+            <span>已选商品<strong>0</strong>件</span>
+            <span>合计（不含运费）：<strong>0.00</strong></span>
+            <div class="calculate">结算</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div id="purchaseCar-bottom">
+    <div class="wrapper">
+      <div class="top">
+        <a href="#">阿里巴巴集团</a><span>|</span>
+        <a href="#">淘宝网</a><span>|</span>
+        <a href="#">天猫</a><span>|</span>
+        <a href="#">聚划算</a><span>|</span>
+        <a href="#">全球速卖通</a><span>|</span>
+        <a href="#">阿里巴巴国际交易市场</a><span>|</span>
+        <a href="#">1688</a><span>|</span>
+        <a href="#">阿里妈妈</a><span>|</span>
+        <a href="#">飞猪</a><span>|</span>
+        <a href="#">阿里云计算</a><span>|</span>
+        <a href="#">AliOS</a><span>|</span>
+        <a href="#">阿里通信</a><span>|</span>
+        <a href="#">一淘</a><span>|</span>
+        <a href="#">万网</a><span>|</span>
+        <a href="#">高德</a><span>|</span>
+        <a href="#">UC</a><span>|</span>
+        <a href="#">友盟</a><span>|</span>
+        <a href="#">阿里安全</a><span>|</span>
+        <a href="#">大麦网</a><span>|</span>
+        <a href="#">钉钉</a><span>|</span>
+        <a href="#">支付宝</a><span>|</span>
+        <a href="#">优酷</a><span>|</span>
+        <a href="#">土豆</a><span>|</span>
+        <a href="#">阿里健康</a><span>|</span>
+        <a href="#">阿里影业</a><span>|</span>
+        <a href="#">国商银行</a><span>|</span>
+      </div>
+      <p>
+        <a href="#">关于淘宝</a>
+        <a href="#">营销中心</a>
+        <a href="#">廉正举报</a>
+        <a href="#">联系客服</a>
+        <a href="#">开放平台</a>
+        <a href="#">诚征英才</a>
+        <a href="#">联系我们</a>
+        <a href="#">隐私政策权</a>
+        <a href="#">法律声明</a>
+        <a href="#">只是产权</a>
+        <a href="#">不当竞争举报</a>
+        <a href="#">规则意见征集</a>
+        <span style="margin-right: 40px;">|</span>
+        <span>© 2003-现在 Taobao.com 版权所有</span>
+      </p>
+      <p>
+        <span>增值电信业务经营许可证：浙B2-20080224</span>
+        <span>|</span>
+        <span>增值电信业务经营许可证（跨地区）： B2-20150210</span>
+        <span>|</span>
+        <span>浙网文【2022】0403-017号</span>
+        <span>|</span>
+        <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</span>
+        <span>|</span>
+        <span>互联网药品信息服务资格证书（浙）-经营性-2018-0010</span>
+        <span>|</span>
+        <span>短消息类服务接入代码使用证书：号【2016】00154-A01</span>
+        <span>|</span>
+        <span>信息网络传播视听许可证：1109364号</span>
+        <span>|</span>
+        <span>出版物网络交易平台服务经营备案号：新出发浙备字第002号</span>
+        <span>|</span>
+      </p>
+      <div class="last2">
+        <span>
+          <div class="first"></div>
+          <a href="#">浙公网安备 33010002000078号</a>
+        </span>
+        <span>|</span>
+        <span><a href="#">浙B2-20080224-1</a></span>
+        <span>|</span>
+        <span>广播电视节目制作经营许可证（浙）字第01012号</span>
+        <span>|</span>
+        <span>市场名称登记证：工商网市字3301004120号</span>
+        <span>|</span>
+        <span>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00004号</span>
+        <span>|</span>
+        <span><a href="#">互联网违法和不良信息举报电话：0571-81683755 jubao.tb@service.taobao.com</a></span>
+        <span>|</span>
+        <span><a href="#">中国扫黄打非网</a></span>
+        <span>|</span>
+        <span><a href="#">全国文化和旅游市场网上举报投诉处理系统</a></span>
+        <span>|</span>
+        <span><a href="#">全国12315平台</a></span>
+        <span>|</span>
+        <span><a href="#">浙江省互联网违法和不良信息举报中心</a></span>
+        <span>|</span>
+        <span><a href="#">全网举报</a></span>
+        <span>|</span>
+      </div>
+      <div class="last">
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+        <span>
+          <a href="#"></a>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/purchase.js" type="module"></script>
+</html>

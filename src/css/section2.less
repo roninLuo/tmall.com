@@ -1,0 +1,54 @@
+#section2 {
+  height: 688px;
+  background: #fff;
+  padding: 0 20px;
+
+  // background: 1;
+  .section2-top {
+    display: flex;
+    align-items: center;
+    height: 70px;
+
+    img {
+      height: 35px;
+      width: 100px;
+    }
+  }
+
+  .section2-body {
+    display: flex;
+    flex-wrap: wrap;
+    a{
+      margin-left: 10px;
+    }
+    
+    figure {
+      height: 305px;
+      width: 220px;
+      img {
+        width: 220px;
+        height: 220px;
+        border-radius: 10px;
+        margin-bottom: 18px;
+      }
+      figcaption{
+        font-size: 14px;
+        color: #0e202f;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 15px;
+        line-height: 1;
+      }
+      p{
+        line-height: 1;
+        color: red;
+        font-size: 18px;
+      }
+    }
+
+    figure:nth-child(5n+1) {
+      margin-left: 0px;
+    }
+  }
+}

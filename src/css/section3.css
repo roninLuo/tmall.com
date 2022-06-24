@@ -1,0 +1,93 @@
+#section3 {
+  height: 700px;
+  background: #fff;
+  padding: 0 20px;
+}
+#section3 .section2-top {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+#section3 .section2-top img {
+  height: 35px;
+  width: 100px;
+}
+#section3 .section3-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+#section3 .section3-left {
+  width: 230px;
+}
+#section3 .section3-left .left-side {
+  height: 305px;
+  width: 220px;
+  margin-bottom: 10px;
+  background: red;
+  border-radius: 15px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#section3 .section3-left .left-side > div {
+  position: absolute;
+  bottom: 25px;
+  height: 75px;
+  width: 190px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+#section3 .section3-left .left-side > div .left-bar1,
+#section3 .section3-left .left-side > div .left-bar2 {
+  font-size: 17px;
+  color: #fff;
+  line-height: 26px;
+}
+#section3 .section3-left .left-side > div .left-bar1 {
+  margin-right: 18px;
+}
+#section3 .section3-left .left-side > div .left-bar2 {
+  padding-left: 18px;
+  border-left: 1px solid #fff;
+}
+#section3 .section3-left .left-side > div .left-bar2 i {
+  color: #fff;
+}
+#section3 .section3-left .left-side img {
+  height: 100%;
+  width: 100%;
+}
+#section3 .section2-body {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+#section3 .section2-body figure {
+  height: 305px;
+  width: 220px;
+  margin-left: 12px;
+}
+#section3 .section2-body figure img {
+  border-radius: 10px;
+  margin-bottom: 18px;
+}
+#section3 .section2-body figure figcaption {
+  font-size: 14px;
+  color: #0e202f;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+#section3 .section2-body figure p {
+  line-height: 1;
+  color: red;
+  font-size: 18px;
+}
+#section3 .section2-body figure:nth-child(4n+1) {
+  margin-left: 0px;
+}

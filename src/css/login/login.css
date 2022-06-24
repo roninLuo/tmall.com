@@ -1,0 +1,239 @@
+#login-top .wrapper {
+  width: 990px;
+}
+#login-top .wrapper > div {
+  height: 40px;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+#login-top .wrapper > div > ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+#login-top .wrapper > div > ul > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#login-top .wrapper > div > ul > li > span > a {
+  margin-left: 4px;
+}
+#login-top .wrapper > div > ul > li > span > a:first-child {
+  color: #f34f29;
+}
+#login-top .wrapper > div > ul > li a {
+  padding: 0 10px;
+  color: #6c6c6c;
+}
+#login-top .wrapper > div > ul > li a i {
+  font-size: 12px;
+  color: #6c6c6c;
+  margin-right: 5px;
+}
+#login-top .wrapper > div > ul > li a:hover {
+  color: #f34f29;
+}
+#login-top .wrapper > div > ul .hiddenBlock {
+  position: relative;
+}
+#login-top .wrapper > div > ul .hiddenBlock > a {
+  display: flex;
+  height: 42px;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+}
+#login-top .wrapper > div > ul .hiddenBlock > a > span {
+  font-size: 12px;
+  margin-left: 2px;
+}
+#login-top .wrapper > div > ul .hiddenBlock > div {
+  display: none;
+  padding: 5px;
+  position: absolute;
+  top: 41px;
+  left: 0px;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-top: none;
+}
+#login-top .wrapper > div > ul .hiddenBlock > div > p {
+  white-space: nowrap;
+  height: 20px;
+  margin: 2px 0px;
+  display: flex;
+  align-items: center;
+}
+#login-top .wrapper > div > ul .hiddenBlock > div > p:hover {
+  background: gray;
+}
+#login-top .wrapper > div > ul > .hiddenBlock:hover > a {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+#login-top .wrapper > div > ul > .hiddenBlock:hover > div {
+  display: block;
+}
+#login-logo .wrapper {
+  width: 990px;
+}
+#login-logo .wrapper > div {
+  height: 40px;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#login-logo .wrapper > div h1 {
+  font-size: 22px;
+  margin-left: 5px;
+  font-weight: 400;
+  color: #3c3c3c;
+}
+#login-body .wrapper {
+  width: 990px;
+  padding-top: 132px;
+}
+#login-body .wrapper .login-body-side {
+  width: 400px;
+  margin: 0 auto;
+}
+#login-body .wrapper .login-body-side > div {
+  height: 56px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+#login-body .wrapper .login-body-side > div label {
+  font-size: 14px;
+  color: #303030;
+  margin-right: 10px;
+}
+#login-body .wrapper .login-body-side > div > input,
+#login-body .wrapper .login-body-side > div > .select,
+#login-body .wrapper .login-body-side > div > button {
+  height: 34px;
+  outline: none;
+  border: none;
+  overflow: hidden;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #303030;
+  padding-left: 10px;
+}
+#login-body .wrapper .login-body-side > div > input::placeholder {
+  font-size: 14px;
+  color: #999fa5;
+}
+#login-body .wrapper .login-body-side > div .select > select {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  color: #303030;
+  outline: none;
+}
+#login-body .wrapper .login-body-side .root > .select {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 120px;
+}
+#login-body .wrapper .login-body-side .root > input {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 180px;
+}
+#login-body .wrapper .login-body-side .password {
+  position: relative;
+}
+#login-body .wrapper .login-body-side .password > input {
+  width: 312px;
+}
+#login-body .wrapper .login-body-side .password .hiddenA {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  padding: 0px 5px;
+}
+#login-body .wrapper .login-body-side .password .hiddenA > a {
+  color: #ff8852;
+  font-size: 14px;
+}
+#login-body .wrapper .login-body-side .button {
+  margin-top: 30px;
+}
+#login-body .wrapper .login-body-side .button button {
+  width: 322px;
+  background: #ff5000;
+  font-size: 14px;
+  color: #fff;
+  font-family: '宋体';
+}
+#login-body .wrapper .login-body-side .checkbox {
+  align-items: flex-start;
+}
+#login-body .wrapper .login-body-side .checkbox > input[type='checkbox'] {
+  margin-right: 9px;
+}
+#login-body .wrapper .login-body-side .checkbox > span {
+  font-size: 14px;
+  color: #303030;
+  width: 300px;
+}
+#login-body .wrapper .login-body-side .checkbox > span > a {
+  font-size: 14px;
+  color: #ff5000;
+}
+#login-body .wrapper .login-body-side .last > a {
+  font-size: 14px;
+  color: #ff5000;
+}
+#login-footer {
+  height: 130px;
+}
+#login-footer .wrapper {
+  width: 990px;
+}
+#login-footer .wrapper a {
+  color: #6e6e6e;
+}
+#login-footer .wrapper a:hover {
+  color: #ff5000;
+}
+#login-footer .wrapper > .firstLine {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+#login-footer .wrapper > .firstLine > span {
+  color: #e8e8e8;
+  padding: 0 10px;
+}
+#login-footer .wrapper > .secondLine {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#login-footer .wrapper > .secondLine > li {
+  margin-right: 10px;
+}
+#login-footer .wrapper > .secondLine li:last-child {
+  margin-left: 70px;
+}
+#login-footer .wrapper .third {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+#login-footer .wrapper .third > span {
+  padding: 0 5px;
+}
