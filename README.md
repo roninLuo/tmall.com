@@ -39,3 +39,7 @@ $ git commit -m 'message'
 
 查看提交日志
 $ git log
+
+
+<!-- 来回切换版本号 恢复版本 -->
+$ git reset -hard 提交记录的前6位
