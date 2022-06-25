@@ -70,3 +70,10 @@ git remote get-url 名称(源名称)
 
 上传到指定的源 上传到设置的第二个源
 git push -u origin2 master
+
+
+克隆仓库
+git clone 地址
+
+更新仓库 
+$ git pull origin master 
