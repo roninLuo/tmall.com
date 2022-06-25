@@ -59,4 +59,14 @@ git branch -M main
 
 提交到远程仓库
 git push -u origin 分支名(默认master)
-未登录会失败
+未登录会失败git remote add origin https://gitee.com/roninLuo/tmall.com.git
+
+查看 所有的地址源
+git remote 
+
+查看上传的地址源
+git remote get-url 名称(源名称)
+
+
+上传到指定的源 上传到设置的第二个源
+git push -u origin2 master
