@@ -43,3 +43,20 @@ $ git log
 
 <!-- 来回切换版本号 恢复版本 -->
 $ git reset -hard 提交记录的前6位
+
+
+查看意外删除的文件
+$ git checkout  filename
+
+
+
+### 远程仓库操作
+设置远程仓库地址
+$ git remote add origin https://github.com/roninLuo/tmall.com.git
+
+创建并时而用m分支(默认使用master分支,不使用该命令)
+git branch -M main
+
+提交到远程仓库
+git push -u origin 分支名(默认master)
+未登录会失败
