@@ -175,15 +175,15 @@ let myPurchase = function () {
 
 
     // 全选删除
-  //  [0].on('click',function(){
-  //   console.log(1);
-  //   if($("#purchaseCar-body > .wrapper > .purchaseBody > .purchaseBody-bottom > .left > input").prop('checked')){
-  //     // window.localStorage.setItem('arr',JSON.stringify([]));
-  //     console.log($(this));
-  //   }else{
-  //     return null;
-  //   }
-  //  });
+   $("#purchaseCar-body > .wrapper > .purchaseBody > .purchaseBody-bottom > .left > span:nth-child(3)").on('click',function(){
+    if($("#purchaseCar-body > .wrapper > .purchaseBody > .purchaseBody-bottom > .left > input").prop('checked')){
+      let arr = [];
+      window.localStorage.setItem('arr',JSON.stringify(arr));
+      window.location.reload();
+    }else{
+      return null;
+    }
+   });
 
 
     // 增加功能
